@@ -1,0 +1,13 @@
+[hidden] {
+    display: none !important;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: justify;
+}
+
+button {
+    cursor: pointer;
+}
