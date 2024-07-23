@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>modal</title>
-	<link rel="stylesheet" href="css/modal.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<button class="show-modal" data-modal-name="log-in">Show modal 1</button>
-	<button class="show-modal" data-modal-name="log-out">Show modal 2</button>
+<div class="actions">
+    <button class="show-modal" data-modal-name="log-in">Show modal 1</button>
+    <button class="show-modal" data-modal-name="log-out">Show modal 2</button>
+</div>
 
-	<div class="modal-overlay" id="log-in" hidden>
-		<div class="modal-content">
-			<button class="modal-close modal-close__rounded">&times</button>
-			<p class="modal-text">1111</p>
-			<button class="modal-close">Отменить</button>
-		</div>
-	</div>
-	<div class="modal-overlay" id="log-out" hidden>
-		<div class="modal-content">
-			<button class="modal-close modal-close__rounded">&times</button>
-			<p class="modal-text">2222</p>
-			<button class="modal-close">Отменить</button>
-		</div>
-	</div>
+<div class="modal-overlay" id="log-in" hidden>
+    <div class="modal-content">
+        <button class="modal-close modal-close__rounded">&times;</button>
+        <p class="modal-text">First Modal</p>
+        <button class="modal-close">Cancel</button>
+    </div>
+</div>
 
-	<script src="js/modal.js"></script>
+<div class="modal-overlay" id="log-out" hidden>
+    <div class="modal-content">
+        <button class="modal-close modal-close__rounded">&times;</button>
+        <p class="modal-text">Second Modal</p>
+        <button class="modal-close">Cancel</button>
+    </div>
+</div>
+
+<script src="js/modal.js"></script>
 </body>
 </html>

@@ -1,11 +1,16 @@
-[hidden] {
-    display: none !important;
+.actions {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 p {
-	font-size: 20px;
-	line-height: 1.2;
-	text-align: justify;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: justify;
 }
 
 button {
